@@ -1,0 +1,44 @@
+/* Page.css */
+
+/* Style for the table container */
+.table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table header */
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for table rows */
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  /* Style for alternate rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for table header text */
+  th,
+  td {
+    font-weight: bold;
+  }
+  
+  /* Style for the heading */
+  h1 {
+    text-align: center;
+  }
+  
